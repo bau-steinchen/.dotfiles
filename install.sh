@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# change owner of .ohmyzsh to user
+echo "change folder .oh-my-zsh/ to $USER!"
+sudo chown -R $USER .oh-my-zsh
+
 # backup
 mkdir ~/dotfiles_backup 
 mv ~/.bash_profile ~/.gitconfig ~/dotfiles_backup
