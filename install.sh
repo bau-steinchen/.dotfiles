@@ -2,11 +2,13 @@
 
 # change owner of .ohmyzsh to user
 cd ~/.oh-my-zsh
-if [ -n "$(find . -user "$username" -print -prune -o -prune)" ]; then
-  echo "The current directory is owned by $username."
+if [ -n "$(find . -user "$USER" -print -prune -o -prune)" ]; then
+  echo "The ~/.oh-my-zsh directory is already owned by $USER."
+else
+    echo "change folder .oh-my-zsh/ to $USER!"
+    sudo chown -R $USER .oh-my-zsh
 fi
-echo "change folder .oh-my-zsh/ to $USER!"
-sudo chown -R $USER .oh-my-zsh
+cd ~/.dotfiles
 
 # backup
 mkdir ~/dotfiles_backup 
