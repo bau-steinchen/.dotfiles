@@ -14,8 +14,6 @@ cd ~/.dotfiles
 mkdir ~/dotfiles_backup 
 mv ~/.bash_profile ~/.gitconfig ~/.oh-my-zsh/custom/themes/* ~/.zshrc ~/dotfiles_backup
 
-# clone temporary the repo for powerlevel10k
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 # make symlinks
 ln -s ~/.dotfiles/bash_profile ~/.bash_profile
 ln -s ~/.dotfiles/gitconfig ~/.gitconfig
