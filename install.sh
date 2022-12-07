@@ -6,7 +6,7 @@ sudo chown -R $USER .oh-my-zsh
 
 # backup
 mkdir ~/dotfiles_backup 
-mv ~/.bash_profile ~/.gitconfig ~/dotfiles_backup
+mv ~/.bash_profile ~/.gitconfig ~/.oh-my-zsh/custom/themes/* ~/dotfiles_backup
 # make symlinks
 ln -s ~/.dotfiles/bash_profile ~/.bash_profile
 ln -s ~/.dotfiles/gitconfig ~/.gitconfig
