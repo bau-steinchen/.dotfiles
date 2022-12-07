@@ -13,7 +13,8 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Custom Themes
 #ZSH_THEME="bau-steinchen"
-ZSH_THEME="headline"
+#ZSH_THEME="headline"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 
 # Set list of themes to pick from when loading at random
