@@ -9,4 +9,4 @@ ln -s ~/.dotfiles/gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/zshrc ~/.zshrc
 
 # adding theme
-ln -s ~/.dotfiles/themes/*
+ln -s ~/.dotfiles/themes/* ~/.oh-my-zsh/custom/themes/
