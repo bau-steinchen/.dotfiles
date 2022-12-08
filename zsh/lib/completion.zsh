@@ -64,7 +64,7 @@ autoload -U compinit
 compinit -i
 autoload -U +X bashcompinit && bashcompinit
 
-if [ "x$USERNAME" = "xbsc" ]; then
+if [ "x$USERNAME" = "xmieb" ]; then
     source /opt/bbox/lib/app/bbox_complete.sh
     source /opt/bbox/lib/app/btinit_complete.sh
 fi
